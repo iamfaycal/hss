@@ -1,6 +1,7 @@
 * { box-sizing: border-box; }
 body { margin: 0; }
 
+/* FONT */
 @font-face {
     font-family: 'garagegothicregular';
     src: url('./font/garage_gothic_regular-webfont.woff2') format('woff2'),
