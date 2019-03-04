@@ -1,6 +1,15 @@
 * { box-sizing: border-box; }
 body { margin: 0; }
 
+@font-face {
+    font-family: 'garagegothicregular';
+    src: url('./font/garage_gothic_regular-webfont.woff2') format('woff2'),
+         url('./font/garage_gothic_regular-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
 /* CONTAINER */
 .container {
     width: 100%;
