@@ -1,11 +1,13 @@
 <!DOCTYPE html>
-<html>
+<html lang="fr">
 <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="description" content="Groupe de danse Hip-Hop sur Mulhouse. Prochain spectacle a scène de rue à Mulhouse.">
     <title>Harmonised Soul System</title>
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link rel="stylesheet" type="text/css" href="style.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
+    <link rel="stylesheet" type="text/css" href="style.css" defer>
 </head>
 <body>
     <div class="wrapper">
@@ -26,5 +28,5 @@
                 </nav>
             </div>
         </header>
-        <div class="banner"></div>
+        <div class="banner"><i class="fas fa-chevron-down"></i></div>
 
