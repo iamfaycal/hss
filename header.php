@@ -11,7 +11,20 @@
     <div class="wrapper">
         <header>
             <div class="container">
-                <h1>TEST</h1>
+                <nav class="row">
+                    <ul class="row col">
+                        <li><a href="/hss/nos-spectacles">Qui sommes-nous ?</a></li>
+                        <li><a href="/hss/nos-spectacles">Nos spectacles</a></li>
+                    </ul>
+                    <div class="logo col">
+                        <a href="/hss"><img src="logo.png" alt="Logo HSS"></a>
+                    </div>
+                    <ul class="row col">
+                        <li><a href="/hss/press">Documents de presse</a></li>
+                        <li><a href="/hss/contact">Nous contacter</a></li>
+                    </ul>
+                </nav>
             </div>
         </header>
+        <div class="banner"></div>
 

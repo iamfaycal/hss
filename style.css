@@ -1,6 +1,3 @@
-* { box-sizing: border-box; }
-body { margin: 0; }
-
 /* FONT */
 @font-face {
     font-family: 'garagegothicregular';
@@ -11,12 +8,21 @@ body { margin: 0; }
 
 }
 
+* { box-sizing: border-box; font-family: 'garagegothicregular' }
+body { margin: 0; }
+
 /* CONTAINER */
 .container {
     width: 100%;
-    padding: 0 15px;
+    padding: 0 10px;
 }
-@media screen and (min-width: 768px) {
+@media screen and (min-width: 1400px) {
+    .container {
+        width: 90%;
+        margin: auto;
+    }
+}
+@media screen and (min-width: 1024px) {
     .container {
         width: 80%;
         margin: auto;
@@ -28,11 +34,76 @@ body { margin: 0; }
     display: flex;
     flex-direction: column;
 }
-.col {
-    flex: 1;
-}
-@media screen and (min-width: 768px) {
+@media screen and (min-width: 1024px) {
     .row {
         flex-direction: row;
     }
-}   
+} 
+
+/* HEADER */
+header {
+    text-align: center;
+    position: relative;
+    z-index: 1;
+}
+header ul {
+    list-style: none;
+    font-size: 30px;
+    margin : 0;
+    padding: 0;
+    justify-content: space-around;
+}
+header ul { flex: 4; align-items: center; }
+header ul:nth-child(1) { justify-content: flex-start; }
+header ul:nth-child(3) { justify-content: flex-end; }
+header ul li {
+    display: flex;
+    align-items: center;
+    text-align: center;
+}
+header ul li a {
+    color: white;
+    text-decoration: none;
+    padding: 0 50px;
+}
+header ul li a:hover {
+    text-decoration: underline;
+}
+header .logo {
+    flex: 1;
+    order: -1;
+    width: 250px;
+    padding: 20px 0;
+}
+header nav {
+    align-items: center;
+}
+@media screen and (min-width: 1024px) {
+    header .logo {
+        order: 0;
+        padding: 20px 0 0 0;
+        width: initial;
+    }
+}
+header .logo img {
+    max-width: 100%;
+}
+
+/* BANNER TEMP */
+.banner {
+    position: absolute;
+    background-image: url('banner-temp.jpg');
+    background-size: cover;
+    background-position: bottom;
+    z-index: -1;
+    top: 0;
+    left: 0;
+    z-index: 0;
+    height: 50vh;
+    width: 100%;
+}
+@media screen and (min-width: 1024px) {
+    .banner {
+        height: 80vh;
+    }
+}
