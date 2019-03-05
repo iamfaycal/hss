@@ -119,3 +119,34 @@ header nav { align-items: center; }
         height: 80vh;
     }
 }
+
+.wrapper{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+section{
+    flex: 1;
+}
+
+/* FOOTER */
+
+footer{
+    background-color: #1c1c1c;
+    height: 100px;
+    margin-top: 95px;
+}
+
+.img_footer{
+    width: 11%;
+    margin-top: 23px;
+    margin-left: 15px;
+}
+
+@media screen and (min-width: 1024px) {
+    footer {
+       
+    }
+}
