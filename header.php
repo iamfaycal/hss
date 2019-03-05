@@ -12,6 +12,11 @@
 <body>
     <div class="wrapper">
         <header class="header-image">
+            <div class="menuButton">
+                <div class="bar1"></div>
+                <div class="bar2"></div>
+                <div class="bar3"></div>
+            </div>
             <div class="container">
                 <nav class="row">
                     <ul class="row col">

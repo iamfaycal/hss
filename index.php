@@ -1,4 +1,6 @@
 <?php include("home-header.php") ?>
-<section></section>
+<section class="main">
+    
+</section>
 <?php include("footer.php"); ?>
     
