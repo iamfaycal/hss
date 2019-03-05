@@ -45,6 +45,11 @@ header {
     text-align: center;
     position: relative;
     z-index: 1;
+    min-height: 400px;
+    height: 60vh;
+}
+header.header-image {
+    background: url('banner-temp.jpg');
 }
 header ul {
     list-style: none;
@@ -78,9 +83,11 @@ header .logo {
 header .logo img { max-width: 100%; }
 header nav { align-items: center; }
 @media screen and (min-width: 1024px) {
+    header {
+        height: 80vh;
+    }
     header .logo {
         order: 0;
-        padding: 20px 0 0 0;
         width: initial;
     }
 }
@@ -91,7 +98,7 @@ header nav { align-items: center; }
 }
 
 
-/* BANNER TEMP */
+/* BANNER */
 .banner {
     position: absolute;
     background-image: url('banner-temp.jpg');
@@ -100,10 +107,8 @@ header nav { align-items: center; }
     z-index: -1;
     top: 0;
     left: 0;
-    z-index: 0;
-    min-height: 400px;
-    height: 60vh;
     width: 100%;
+    height: 100%;
 }
 .banner i {
     position: absolute;
@@ -113,6 +118,7 @@ header nav { align-items: center; }
     padding: 20px 0 10px;
     color: white;
     font-size: 40px;
+<<<<<<< HEAD
 }
 @media screen and (min-width: 1024px) {
     .banner {
@@ -149,4 +155,6 @@ footer{
     footer {
        
     }
+=======
+>>>>>>> 5e8a6e11200b17e467d8d9d8c94f76a62b1a9479
 }

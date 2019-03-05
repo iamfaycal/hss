@@ -7,11 +7,11 @@
     <title>Harmonised Soul System</title>
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
-    <link rel="stylesheet" type="text/css" href="style.css" defer>
+    <link rel="stylesheet" type="text/css" href="http://<?php echo $_SERVER['SERVER_NAME'] ?>/hss/style.css" defer>
 </head>
 <body>
     <div class="wrapper">
-        <header>
+        <header class="header-image">
             <div class="container">
                 <nav class="row">
                     <ul class="row col">
@@ -19,7 +19,7 @@
                         <li><a href="/hss/nos-spectacles">Nos spectacles</a></li>
                     </ul>
                     <div class="logo col">
-                        <a href="/hss"><img src="logo.png" alt="Logo HSS"></a>
+                        <a href="/hss"><img src="http://<?php echo $_SERVER['SERVER_NAME'] ?>/hss/logo.png" alt="Logo HSS"></a>
                     </div>
                     <ul class="row col">
                         <li><a href="/hss/press">Documents de presse</a></li>
@@ -27,6 +27,5 @@
                     </ul>
                 </nav>
             </div>
-            <div class="banner"><i class="fas fa-chevron-down"></i></div>
         </header>
 
