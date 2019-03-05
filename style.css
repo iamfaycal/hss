@@ -118,12 +118,6 @@ header nav { align-items: center; }
     padding: 20px 0 10px;
     color: white;
     font-size: 40px;
-<<<<<<< HEAD
-}
-@media screen and (min-width: 1024px) {
-    .banner {
-        height: 80vh;
-    }
 }
 
 .wrapper{
@@ -141,20 +135,31 @@ section{
 
 footer{
     background-color: #1c1c1c;
-    height: 100px;
-    margin-top: 95px;
+    height: 110px;
 }
 
 .img_footer{
     width: 11%;
-    margin-top: 23px;
-    margin-left: 15px;
+    
+}
+
+.input_footer{
+    width: 60%;
+    margin-left: 45px;
+    height: 35px;
+    border: 0;
+    padding: 20px;
+}
+
+.footer_inner{
+    display: flex;
+    padding: 20px;
+    align-items: center;
+    justify-content: center;
 }
 
 @media screen and (min-width: 1024px) {
     footer {
        
     }
-=======
->>>>>>> 5e8a6e11200b17e467d8d9d8c94f76a62b1a9479
 }
