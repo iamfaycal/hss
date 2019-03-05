@@ -16,13 +16,13 @@ body { margin: 0; }
     width: 100%;
     padding: 0 10px;
 }
-@media screen and (min-width: 1400px) {
+@media screen and (min-width: 1280px) {
     .container {
         width: 90%;
         margin: auto;
     }
 }
-@media screen and (min-width: 1024px) {
+@media screen and (min-width: 1400px) {
     .container {
         width: 80%;
         margin: auto;
@@ -60,11 +60,13 @@ header ul li {
     display: flex;
     align-items: center;
     text-align: center;
+    margin-bottom: 5px;
 }
 header ul li a {
     color: white;
     text-decoration: none;
     padding: 0 50px;
+    white-space: nowrap;
 }
 header ul li a:hover { text-decoration: underline; }
 header .logo {
@@ -73,6 +75,7 @@ header .logo {
     width: 200px;
     padding: 20px 0;
 }
+header .logo img { max-width: 100%; }
 header nav { align-items: center; }
 @media screen and (min-width: 1024px) {
     header .logo {
@@ -81,7 +84,12 @@ header nav { align-items: center; }
         width: initial;
     }
 }
-header .logo img { max-width: 100%; }
+@media screen and (min-width: 1400px) {
+    header ul {
+        font-size: 35px;
+    }
+}
+
 
 /* BANNER TEMP */
 .banner {
@@ -93,7 +101,7 @@ header .logo img { max-width: 100%; }
     top: 0;
     left: 0;
     z-index: 0;
-    min-height: 370px;
+    min-height: 400px;
     height: 60vh;
     width: 100%;
 }
