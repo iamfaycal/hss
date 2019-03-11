@@ -22,7 +22,11 @@ h3 { font-size: 30px; }
 h3.title {
     font-size: 40px;
 }
+<<<<<<< HEAD
 p, a, button { font-size: 22px; display: inline-block; }
+=======
+.qsn{text-align: center;}
+>>>>>>> Page Qui sommes nous
 p {
     margin: 0 0 20px;
 }
@@ -429,4 +433,15 @@ textarea{
         border-left: solid 2px;
         padding-top: 20px;
     } 
+}
+
+/*QUi sommes nous */
+
+@media screen and (min-width: 1024px) {
+    .colD, .colG{
+        flex: 1;
+        padding: 0 20px;
+    }
+
+
 }
