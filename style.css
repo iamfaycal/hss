@@ -409,10 +409,6 @@ textarea{
 }
 
 @media screen and (min-width: 1024px) {
-    form {
-      p 
-    }
-
     .contactPage1, .contactPage2{
         flex: 1;
         padding: 0 20px;
@@ -421,9 +417,5 @@ textarea{
     .contactPage2{
         border-left: solid 2px;
         padding-top: 20px;
-    }
-
-    
-
-    
+    } 
 }
