@@ -16,21 +16,24 @@ h2 {
     font-size: 35px;
     text-transform: uppercase;
     text-align: center;
+    margin-bottom: 40px;
 }
 h3 { font-size: 30px; }
 h3.title {
     font-size: 40px;
 }
+p, a, button { font-size: 22px; display: inline-block; }
 p {
-    font-size: 22px;
     margin: 0 0 20px;
 }
 @media screen and (min-width: 768px) {
-    p { font-size: 30px; }
+    h1 { font-size: 80px; }
+    h2 { font-size: 50px; }
+    h3 { font-size: 40px; }
+    p, a, button { font-size: 30px; }
 }
 .button {
     background-color: #E9E84C;
-    font-size: 22px;
     color: white;
     text-decoration: none;
     padding: 10px 20px;
@@ -218,20 +221,19 @@ header nav { align-items: center; }
 
 /* SECTIONS */
 section {
+    display: inline-block;
     flex: 1;
     background-color: white;
     z-index: 1;
     transition: all .4s ease-in-out;
-    padding: 40px 0;
-}
-@media screen and (min-width: 768px) {
-    section {
-        padding: 50px 0;
-    }
+    margin-bottom: 50px;
 }
 section:first-of-type {
     margin-top: -170px;
+    padding-top: 50px;
 }
+
+
 section.nav-visible {
     margin-top: 0;
 }
@@ -410,7 +412,6 @@ textarea{
 
 .submit{
     background-color: #E9E84C;
-    font-size: 22px;
     color: white;
     text-decoration: none;
     padding: 10px 20px;

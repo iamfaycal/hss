@@ -20,7 +20,7 @@
                 <h3 class="title">NOUS - 2019</h3>
                 <p>“Nous” est un spectacle combinant du breakdance et du théâtre racontant en mouvement la rencontre des membres de la troupe. Pendant 1h, à travers  ces deux styles artistiques, ils vont aborder des thématiques différentes.
                 Avec une authenticité rare, ils parlerons des défis qu’ils ont vécus et ceux qui les attendent.
-                Leur technique plonge les spectateurs dans un univers surprenant et pleins d’émotions, ils veulent permettent aux personnes de non pas seulement regarder mais de vivre leur histoire en même temps qu’eux.
+                Leur technique plonge les spectateurs dans un univers surprenant et pleins d’émotions   .
                 </p>
                 <ul>
                     <li>
@@ -41,7 +41,16 @@
                     </li>
                 </ul>
             </div>
+
         </div>
+        <a href="http://<?php echo $_SERVER['SERVER_NAME'] ?>/hss/nos-spectacles" class="button" style="display: block; width: fit-content; margin: 20px auto;">Voir tous nos spectacles</a>
+    </div>
+</section>
+<section style="text-align: center;">
+    <div class="container">
+        <h2>Nous contacter & en savoir plus</h2>
+        <a href="http://<?php echo $_SERVER['SERVER_NAME'] ?>/hss/contact" class="button" style="margin: 0 10px;">Nous concacter</a>
+        <a href="http://<?php echo $_SERVER['SERVER_NAME'] ?>/hss/presse" class="button" style="margin: 0 10px;">Documents de presse</a>
     </div>
 </section>
 <?php include("footer.php"); ?>
