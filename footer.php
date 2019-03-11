@@ -15,6 +15,7 @@
                             <li><a href="/hss/nos-spectacles">Nos spectacles</a></li>
                             <li><a href="/hss/presse">Documents de presse</a></li>
                             <li><a href="/hss/contact">Contact</a></li>
+                            <li><a href="/hss/mentions-legales">Mentions légales</a></li>
                         </ul>
                     </div>
                 </div>
