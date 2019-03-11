@@ -298,3 +298,47 @@ footer{
        
     }
 }
+
+/* CONTACT */
+
+#name, #mail{
+    padding: 10px;
+    width: 100%;
+    margin-top: 10px;
+}
+
+textarea{
+    padding: 10px;
+    width: 100%;
+    margin-top: 10px;
+    height: 100px;
+}
+
+.contactPage2{
+    
+    padding-top: 25px;
+}
+@media screen and (min-width: 1024px) {
+    form {
+      p 
+    }
+
+    .contactPage1, .contactPage2{
+        flex: 1;
+        padding: 0 20px;
+    }
+
+    .contactPage2{
+        border-left: solid 2px;
+        padding-top: 20px;
+    }
+
+    .contactTxt{
+        font-size: 25px;
+        margin: 0;
+        color:#707070;
+    }
+    
+
+    
+}
