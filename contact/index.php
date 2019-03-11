@@ -16,6 +16,7 @@
                 <label for="msg">Message :</label><br>
                 <textarea id="msg" name="user_message"></textarea>
             </p>
+            <input class="submit"type="submit" value="Envoyer" />
         </form>
         </div>
     
