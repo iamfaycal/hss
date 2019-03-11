@@ -41,7 +41,7 @@ img { max-width: 100%; }
 /* CONTAINER */
 .container {
     width: 100%;
-    padding: 0 10px;
+    padding: 0px 30px;
 }
 @media screen and (min-width: 1280px) {
     .container {
@@ -51,7 +51,7 @@ img { max-width: 100%; }
 }
 @media screen and (min-width: 1400px) {
     .container {
-        width: 60%;
+        width: 70%;
         margin: auto;
     }
 }
@@ -271,30 +271,103 @@ section.nav-visible {
 /* FOOTER */
 footer{
     background-color: #1c1c1c;
-    height: 110px;
-}
-
-.img_footer{
-    width: 11%;
-}
-
-.input_footer{
-    width: 60%;
-    margin-left: 45px;
-    height: 35px;
-    border: 0;
-    padding: 20px;
-}
-
-.footer_inner{
+    padding: 30px 0;
     display: flex;
-    padding: 20px;
+}
+
+.input_footer {
+    border: 5px solid white;
+    color: white;
+    padding: 15px 20px;
+    width: 85%;
+    font-size: 25px;
+    background-color: transparent;
+    vertical-align: middle;
+}
+.newsletter_submit {
+    width: 15%;
+    font-size: 25px;
+    padding: 15px 20px;
+    vertical-align: middle;
+    background-color: white;
+    border: 5px solid white;
+    cursor: pointer;
+}
+.newsletter_submit:hover {
+    background-color: #eee;
+    border: 5px solid #eee;
+}
+.newsletter_submit:focus {
+    outline: 0;
+}
+
+.footer_left{
+    display: flex;
     align-items: center;
     justify-content: center;
+    flex: 1;
+    margin-bottom: 20px;
+}
+
+.img_footer {
+    flex: 2;
+}
+
+@media screen and (min-width: 768px) {
+    .img_footer {
+        flex: 1;
+    }
+}
+
+.newsletter_footer {
+    color: white;
+    margin-left: 50px;
+    flex: 5;
+}
+
+.newsletter_footer h4 {
+    font-size: 30px;
+    margin: 0 0 10px;
+}
+
+.footer_right ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    justify-content: space-between;
+}
+
+.footer_right ul li a {
+    color: white;
+    text-transform: uppercase;
+    text-align: left;
+    font-size: 20px;
+    text-decoration: none;
+}
+.footer_right ul li a:hover {
+    text-decoration: underline;
 }
 
 @media screen and (min-width: 1024px) {
-    footer {
-       
+    .footer_inner {
+        display: flex;
+    }
+    .newsletter_footer {
+        margin: 0 50px;
+    }
+    .footer_right {
+        display: flex;
+        align-items: center
+    }
+    .footer_right ul {
+        flex-direction: column;
+        text-align: right;
+    }
+    .footer_right ul li {
+        margin-bottom: 5px;
+    }
+    .footer_right ul li a {
+        font-size: 25px;
     }
 }

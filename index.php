@@ -6,7 +6,7 @@
         <p>
         Harmonised Soul System (HSS), est un groupe mulhousien formé en janvier 2018. Il est composé de trois jeunes d’une vingtaine d’année. HHS est une troupe originale et innovante dans son genre. Elle a la capacité de combiner deux styles artistiques différents, le breakdance et le théâtre en une représentation ce qui donne un caractère unique au spectacle.
         </p>
-        <a href="/hss/a-propos" class="button">En savoir plus</a>
+        <a href="/hss/qui-sommes-nous" class="button">En savoir plus</a>
     </div>
 </section>
 <section>

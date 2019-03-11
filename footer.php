@@ -1,8 +1,22 @@
             <footer>
                 <div class="container footer_inner">
-                   <img class="img_footer" src="logo.png" alt="Logo HSS">
-                   <h4>Newsletter</h4>
-                    <input class="input_footer" type="email" placeholder="exemple@contact.com">
+                    <div class="footer_left">
+                        <div class="img_footer">
+                            <img src="logo.png" alt="Logo HSS">
+                        </div>
+                        <div class="newsletter_footer">
+                            <h4>Inscrivez vous à notre newsletter</h4>
+                            <input class="input_footer" type="email" placeholder="exemple@contact.com"><button class="newsletter_submit">Valider</button>
+                        </div>
+                    </div>
+                    <div class="footer_right">
+                        <ul>
+                            <li><a href="/hss/qui-sommes-nous">Qui sommes-nous ?</a></li>
+                            <li><a href="/hss/nos-spectacles">Nos spectacles</a></li>
+                            <li><a href="/hss/presse">Documents de presse</a></li>
+                            <li><a href="/hss/contact">Contact</a></li>
+                        </ul>
+                    </div>
                 </div>
             </footer>
         </div> <!-- WRAPPER -->
