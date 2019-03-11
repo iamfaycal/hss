@@ -318,6 +318,12 @@ textarea{
     
     padding-top: 25px;
 }
+
+.contactTxt{
+    font-size: 25px;
+    margin: 0;
+    color:#707070;
+}
 @media screen and (min-width: 1024px) {
     form {
       p 
@@ -333,11 +339,6 @@ textarea{
         padding-top: 20px;
     }
 
-    .contactTxt{
-        font-size: 25px;
-        margin: 0;
-        color:#707070;
-    }
     
 
     
