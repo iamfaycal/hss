@@ -20,7 +20,7 @@
             <div class="container">
                 <nav class="row">
                     <ul class="row col">
-                        <li><a href="/hss/nos-spectacles">Qui sommes-nous ?</a></li>
+                        <li><a href="/hss/qui-sommes-nous">Qui sommes-nous ?</a></li>
                         <li><a href="/hss/nos-spectacles">Nos spectacles</a></li>
                     </ul>
                     <div class="logo col">

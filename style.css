@@ -278,16 +278,17 @@ footer{
 .input_footer {
     border: 5px solid white;
     color: white;
-    padding: 15px 20px;
-    width: 85%;
+    padding: 15px 10px;
+    width: 75%;
     font-size: 25px;
     background-color: transparent;
     vertical-align: middle;
 }
+
 .newsletter_submit {
-    width: 15%;
+    width: 25%;
     font-size: 25px;
-    padding: 15px 20px;
+    padding: 15px 10px;
     vertical-align: middle;
     background-color: white;
     border: 5px solid white;
@@ -352,6 +353,14 @@ footer{
 @media screen and (min-width: 1024px) {
     .footer_inner {
         display: flex;
+    }
+    .input_footer {
+        width: 85%;
+        padding: 15px 20px;
+    }
+    .newsletter_submit {
+        width: 15%;
+        padding: 15px 20px;
     }
     .newsletter_footer {
         margin: 0 50px;
