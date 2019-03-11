@@ -2,7 +2,7 @@
                 <div class="container footer_inner">
                     <div class="footer_left">
                         <div class="img_footer">
-                            <img src="logo.png" alt="Logo HSS">
+                            <img src="http://<?php echo $_SERVER['SERVER_NAME'] ?>/hss/logo.png" alt="Logo HSS">
                         </div>
                         <div class="newsletter_footer">
                             <h4>Inscrivez vous à notre newsletter</h4>
