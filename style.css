@@ -138,6 +138,7 @@ header nav { align-items: center; }
     }
     header .logo {
         order: 0;
+        min-width: 150px;
         width: initial;
     }
 }
