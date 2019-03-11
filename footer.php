@@ -5,8 +5,8 @@
                             <img src="http://<?php echo $_SERVER['SERVER_NAME'] ?>/hss/logo.png" alt="Logo HSS">
                         </div>
                         <div class="newsletter_footer">
-                            <h4>Inscrivez vous à notre newsletter</h4>
-                            <input class="input_footer" type="email" placeholder="exemple@contact.com"><button class="newsletter_submit">Valider</button>
+                            <label for="input_footer">Inscrivez vous à notre newsletter</label>
+                            <input class="input_footer" id="input_footer" type="email" placeholder="exemple@contact.com"><button class="newsletter_submit">Valider</button>
                         </div>
                     </div>
                     <div class="footer_right">

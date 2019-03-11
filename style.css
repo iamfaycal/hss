@@ -22,7 +22,8 @@ h3 { font-size: 30px; }
 h3.title {
     font-size: 40px;
 }
-p, a, button { font-size: 22px; display: inline-block; }
+p, a, button { font-size: 22px; }
+a, button { display: inline-block; }
 .qsn{text-align: center;}
 p {
     margin: 0 0 20px;
@@ -126,13 +127,14 @@ header ul li a {
     text-decoration: none;
     padding: 0 50px;
     white-space: nowrap;
+    font-size: 35px;
 }
 header ul li a:hover { text-decoration: underline; }
 header .logo {
     flex: 1;
     order: -1;
     width: 200px;
-    padding: 20px 0;
+    padding: 20px 0 5px;
 }
 header .logo img { max-width: 100%; }
 header nav { align-items: center; }
@@ -248,12 +250,19 @@ section.nav-visible {
 .event {
     display: flex;
     flex-direction: column;
+    margin-bottom: 50px;
 }
 .event ul {
     padding-left: 15px;
 }
+.event:last-child ul {
+    direction: rtl;
+}
 .event ul li p {
     margin-top: 0;
+}
+.event:last-child ul li p {
+    direction: ltr;
 }
 .event .event-content {
     margin-top: 25px;
@@ -262,15 +271,19 @@ section.nav-visible {
     .event {
         flex-direction: row;
     }
-    .event .event-poster {
+    .event .event-poster:first-child {
         padding-right: 30px; 
+        flex: 3;
+    }
+    .event .event-poster:last-child {
+        padding-left: 30px; 
         flex: 3;
     }
     .event .event-content {
         flex: 5;
         margin: 0;
     }   
-} 
+}
 
 /* FOOTER */
 footer{
@@ -330,9 +343,9 @@ footer{
     flex: 5;
 }
 
-.newsletter_footer h4 {
+.newsletter_footer label {
     font-size: 30px;
-    margin: 0 0 10px;
+    margin: 0 0 15px;
 }
 
 .footer_right ul {
@@ -346,8 +359,8 @@ footer{
 .footer_right ul li a {
     color: white;
     text-transform: uppercase;
-    text-align: left;
-    font-size: 20px;
+    text-align: center;
+    font-size: 25px;
     text-decoration: none;
 }
 .footer_right ul li a:hover {
@@ -381,7 +394,7 @@ footer{
         margin-bottom: 5px;
     }
     .footer_right ul li a {
-        font-size: 25px;
+        font-size: 28px;
     }
 }
 

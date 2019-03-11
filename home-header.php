@@ -27,7 +27,7 @@
                         <a href="/hss"><img src="logo.png" alt="Logo HSS"></a>
                     </div>
                     <ul class="row col">
-                        <li><a href="/hss/press">Documents de presse</a></li>
+                        <li><a href="/hss/presse">Documents de presse</a></li>
                         <li><a href="/hss/contact">Nous contacter</a></li>
                     </ul>
                 </nav>
