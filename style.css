@@ -22,6 +22,7 @@ h3 { font-size: 30px; }
 h3.title {
     font-size: 40px;
 }
+b{font-size: 20px;}
 p, a, button { font-size: 22px; }
 a, button { display: inline-block; }
 .qsn{text-align: center;}
@@ -455,4 +456,10 @@ textarea{
     }
 
 
+}
+
+/* MENTIONS*/
+
+.pmention{
+    font-size: 20px;
 }
