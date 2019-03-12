@@ -39,24 +39,6 @@
                 Avec une authenticité rare, ils parlerons des défis qu’ils ont vécus et ceux qui les attendent.
                 Leur technique plonge les spectateurs dans un univers surprenant et pleins d’émotions   .
                 </p>
-                <ul>
-                    <li>
-                        <h3>MULHOUSE - Scène de rue</h3>
-                        <p>19 juillet 2019 à 20h15</p>
-                    </li>
-                    <li>
-                        <h3>STRASBOURG - Fête de la bière</h3>
-                        <p>23 juillet 2019 à 20h30</p>
-                    </li>
-                    <li>
-                        <h3>NANCY - Festival Art’n’dance</h3>
-                        <p>03 août 2019 à 19h30</p>
-                    </li>
-                    <li>
-                        <h3>PARIS - Spectacle de rue</h3>
-                        <p>15 août 2019 à 20h00</p>
-                    </li>
-                </ul>
             </div>
             <div class="event-poster">
                 <img src="https://via.placeholder.com/1000x1416" alt="affiche-nous">

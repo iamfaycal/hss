@@ -27,7 +27,7 @@
            <p class="contactTxt" style="color:black;">3 rue de la gare</p>
            <p class="contactTxt" style="color:black;">68100 Mulhouse</p><br>
 
-           <p class="contactTxt">Ou par courrier électronnique : </p><br>
+           <p class="contactTxt">Ou par courrier électronique : </p><br>
            <p class="contactTxt" style="color:black;">contact@hss.com</p><br>
 
            <p class="contactTxt">Si vous souhaitez en savoir plus sur le groupe, vous pouvez télécharger notre dossier de presse sur la page <a href="#" style="color: #E9E84C;">documents de presse</a></p>

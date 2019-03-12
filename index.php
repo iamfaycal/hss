@@ -2,7 +2,7 @@
 <section class="main" style="text-align: center;">
     <div class="container">
         <h1>Harmonised Soul System</h1>
-        <h2>Qu'est-ce que c'est ?</h2>
+        <h2>Du breakdance et du thêatre</h2>
         <p>
         Harmonised Soul System (HSS), est un groupe mulhousien formé en janvier 2018. Il est composé de trois jeunes d’une vingtaine d’année. HHS est une troupe originale et innovante dans son genre. Elle a la capacité de combiner deux styles artistiques différents, le breakdance et le théâtre en une représentation ce qui donne un caractère unique au spectacle.
         </p>
@@ -11,7 +11,7 @@
 </section>
 <section>
     <div class="container">
-        <h2>Nos prochains spéctacles</h2>
+        <h2>Nos prochains spectacles</h2>
         <div class="event">
             <div class="event-poster">
                 <img src="http://<?php echo $_SERVER['SERVER_NAME'] ?>/hss/affiche.jpg" alt="affiche-nous">
@@ -41,7 +41,6 @@
                     </li>
                 </ul>
             </div>
-
         </div>
         <a href="http://<?php echo $_SERVER['SERVER_NAME'] ?>/hss/nos-spectacles" class="button" style="display: block; width: fit-content; margin: 20px auto;">Voir tous nos spectacles</a>
     </div>
@@ -49,8 +48,8 @@
 <section style="text-align: center;">
     <div class="container">
         <h2>Nous contacter & en savoir plus</h2>
-        <a href="http://<?php echo $_SERVER['SERVER_NAME'] ?>/hss/contact" class="button" style="margin: 0 10px;">Nous concacter</a>
-        <a href="http://<?php echo $_SERVER['SERVER_NAME'] ?>/hss/presse" class="button" style="margin: 0 10px;">Documents de presse</a>
+        <a href="http://<?php echo $_SERVER['SERVER_NAME'] ?>/hss/contact" class="button" style="margin: 0 10px;">Nous contacter</a>
+        <a href="http://<?php echo $_SERVER['SERVER_NAME'] ?>/hss/presse" class="button" style="margin: 0 10px;">Espace presse</a>
     </div>
 </section>
 <?php include("footer.php"); ?>
