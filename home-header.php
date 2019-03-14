@@ -24,7 +24,7 @@
                         <li><a href="/hss/nos-spectacles">Nos spectacles</a></li>
                     </ul>
                     <div class="logo col">
-                        <a href="/hss"><img src="logo.jpg" alt="Logo HSS"></a>
+                        <a href="/hss"><img src="/hss/assets/images/logo.jpg" alt="Logo HSS"></a>
                     </div>
                     <ul class="row col">
                         <li><a href="/hss/presse">Espace presse</a></li>

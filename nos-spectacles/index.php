@@ -4,7 +4,7 @@
         <h2>Nos spectacles</h2>
         <div class="event">
             <div class="event-poster">
-                <img src="http://<?php echo $_SERVER['SERVER_NAME'] ?>/hss/affiche-nous.jpg" alt="affiche-nous">
+                <img src="/hss/assets/images/affiche-nous.jpg" alt="affiche-nous">
             </div>
             <div class="event-content">
                 <h3 class="title">NOUS - 2019</h3>
@@ -38,7 +38,7 @@
                 <p>Les premiers pas de Harmonised Soul System ont eu lieu sur la scène du concours Dance l’avenir.<br/>Vous pouvez retrouver l’intégralité de leurs performances sur <a href="javascript:alert('En construction')">www.dance-lavenir.fr</a>.</p>
             </div>
             <div class="event-poster">
-                <img src="http://<?php echo $_SERVER['SERVER_NAME'] ?>/hss/affiche-dance.jpg" alt="affiche-dance">
+                <img src="/hss/assets/images/affiche-dance.jpg" alt="affiche-dance">
             </div>
         </div>
     </div>

@@ -4,7 +4,7 @@
 
             <div class="container row" style="margin-bottom: 135px;">
             <div class="colG">
-                <img src="Ben.jpg">
+                <img src="/hss/assets/images/Ben.jpg">
             </div>
             <div class="colD">
                     <h3 class="qsn">Ben vu par Noémie</h3>
@@ -22,14 +22,14 @@
                 
             </div>
             <div class="colD">
-            <img src="noemie.jpg">
+            <img src="/hss/assets/images/noemie.jpg">
             </div>
 
             </div>
 
              <div class="container row" style="margin-bottom: 135px;">
             <div class="colG">
-                <img src="mendy.jpg">
+                <img src="/hss/assets/images/mendy.jpg">
             </div>
             <div class="colD">
                     <h3 class="qsn">Mendy vu par Ben</h3>

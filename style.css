@@ -36,7 +36,7 @@ p {
 }
 .button {
     background-color: #E9E84C;
-    color: white;
+    color: black;
     text-decoration: none;
     padding: 10px 20px;
     border-radius: 5px;
@@ -85,7 +85,7 @@ header {
     }
 }
 header.header-image {
-    background: url('banner-temp.jpg');
+    background: url('/hss/assets/images/banner-temp.jpg');
     background-size: cover; 
     transition: all .4s ease-in-out;
 }
@@ -190,7 +190,7 @@ header nav { align-items: center; }
 /* BANNER */
 .banner {
     position: absolute;
-    background-image: url('banner-temp.jpg');
+    background-image: url('/hss/assets/images/banner-temp.jpg');
     background-size: cover;
     background-position: bottom;
     z-index: -1;
@@ -398,6 +398,21 @@ footer{
     }
 }
 
+/* PRESSE */
+.press-right {
+    order: -1;
+    text-align: left;
+    margin-bottom: 50px;
+}
+.press-right h2 { text-align: left; }
+@media screen and (min-width: 1024px) {
+    .press-right {
+        order: 2;
+        text-align: right;
+    }
+    .press-right h2 { text-align: right; }
+} 
+
 /* CONTACT */
 
 #name, #mail{
@@ -426,12 +441,13 @@ textarea{
 
 .submit{
     background-color: #E9E84C;
-    color: white;
+    color: black;
     text-decoration: none;
     padding: 10px 20px;
     border: none;
     border-radius: 5px;
-    font-size: 20px;
+    font-size: 30px;
+    cursor: pointer;
 }
 
 @media screen and (min-width: 1024px) {

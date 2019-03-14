@@ -11,7 +11,7 @@
             <p class="pmention"><b>Site Web :</b> www.harmonised-soul-system.fr</p>
         </div>
         <div class="col2">
-            <h3>Hébergement </h3>
+            <h3 style="margin-top: 30px;">Hébergement</h3>
             <p class="pmention"><b>Hébergeur :</b> Agence 507</p>
             <p class="pmention"><b>Adresse :</b> 9 Rue Louis Pasteur, 68100 Mulhouse</p>
             <p class="pmention"><b>Téléphone :</b> 0602356993</p>
@@ -19,7 +19,7 @@
             <p class="pmention"><b>Site Web :</b> www.agence-507.fr</p>
         </div>
         <div class="col3">
-            <h3>Développement </h3>
+            <h3 style="margin-top: 30px;">Développement</h3>
             <p class="pmention"> Agence 507</p>
             <p class="pmention"><b>Adresse :</b> 9 Rue Louis Pasteur, 68100 Mulhouse</p>
             <p class="pmention"><b>Téléphone :</b> 0602356993</p>
@@ -37,6 +37,18 @@
             <h3 style="margin-top: 50px;">Propriété intellectuelle</h3>
             <p class="pmention">Les pages internet, le texte, les photographies et les vidéos présentées sur le site www.harmonised-soul-system.fr partagés sont, sauf mention contraire, des créations originales du Groupe HSS.</p>
         </div>
+    </div>
+
+    <div class="container">
+        <h2>Plan du site</h2>
+        <ul>
+            <li><a href="/hss">Accueil</a></li>
+            <li><a href="/hss/qui-sommes-nous">Qui sommes-nous ?</a></li>
+            <li><a href="/hss/nos-spectacles">Nos spectacles</a></li>
+            <li><a href="/hss/presse">Espace presse</a></li>
+            <li><a href="/hss/contact">Nous contacter</a></li>
+            <li><a href="/hss/mentions-legales">Mentions légales</a></li>
+        </ul>
     </div>
 </section>
 <?php include("../footer.php") ?>

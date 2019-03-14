@@ -14,7 +14,7 @@
         <h2>Nos prochains spectacles</h2>
         <div class="event">
             <div class="event-poster">
-                <img src="http://<?php echo $_SERVER['SERVER_NAME'] ?>/hss/affiche-nous.jpg" alt="affiche-nous">
+                <img src="/hss/assets/images/affiche-nous.jpg" alt="affiche-nous">
             </div>
             <div class="event-content">
                 <h3 class="title">NOUS - 2019</h3>
@@ -42,14 +42,14 @@
                 </ul>
             </div>
         </div>
-        <a href="http://<?php echo $_SERVER['SERVER_NAME'] ?>/hss/nos-spectacles" class="button" style="display: block; width: fit-content; margin: 20px auto;">Voir tous nos spectacles</a>
+        <a href="/hss/nos-spectacles" class="button" style="display: block; width: fit-content; margin: 20px auto;">Voir tous nos spectacles</a>
     </div>
 </section>
 <section style="text-align: center;">
     <div class="container">
         <h2>Nous contacter & en savoir plus</h2>
-        <a href="http://<?php echo $_SERVER['SERVER_NAME'] ?>/hss/contact" class="button" style="margin: 0 10px;">Nous contacter</a>
-        <a href="http://<?php echo $_SERVER['SERVER_NAME'] ?>/hss/presse" class="button" style="margin: 0 10px;">Espace presse</a>
+        <a href="/hss/contact" class="button" style="margin: 0 10px;">Nous contacter</a>
+        <a href="/hss/presse" class="button" style="margin: 0 10px;">Espace presse</a>
     </div>
 </section>
 <?php include("footer.php"); ?>
