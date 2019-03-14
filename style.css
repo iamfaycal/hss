@@ -457,6 +457,10 @@ textarea{
 
 }
 
+.img_round{
+    border-radius: 50%;
+}
+
 /* MENTIONS*/
 
 .pmention{

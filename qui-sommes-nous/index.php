@@ -4,7 +4,7 @@
 
             <div class="container row" style="margin-bottom: 135px;">
             <div class="colG">
-                <img src="Ben.jpg">
+                <img src="Ben.jpg" class="img_round">
             </div>
             <div class="colD">
                     <h3 class="qsn">Ben vu par Noémie</h3>
@@ -15,21 +15,21 @@
             </div>
 
             <div class="container row" style="margin-bottom: 135px;">
-            <div class="colG">
+            <div class="colG" >
             <h3 class="qsn">Noémie vu par Mendy</h3>
                     <p>“Noémie ou l’effrontée ! Elle n’hésite pas à imposer ses idées mais elle sait garder l’esprit de notre groupe. Elle apporte beaucoup de dynamisme et elle est très déterminée. Elle réussit à nous communiquer son énergie et elle a toujours les mots pour nous pousser plus loin !”
                     </p>
                 
             </div>
             <div class="colD">
-            <img src="noemie.jpg">
+            <img src="noemie.jpg" class="img_round">
             </div>
 
             </div>
 
              <div class="container row" style="margin-bottom: 135px;">
             <div class="colG">
-                <img src="mendy.jpg">
+                <img src="mendy.jpg" class="img_round">
             </div>
             <div class="colD">
                     <h3 class="qsn">Mendy vu par Ben</h3>
