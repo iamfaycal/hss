@@ -11,11 +11,17 @@
                     </div>
                     <div class="footer_right">
                         <ul>
-                            <li><a href="/hss/qui-sommes-nous">Qui sommes-nous ?</a></li>
-                            <li><a href="/hss/nos-spectacles">Nos spectacles</a></li>
                             <li><a href="/hss/presse">Documents de presse</a></li>
                             <li><a href="/hss/contact">Contact</a></li>
                             <li><a href="/hss/mentions-legales">Mentions légales</a></li>
+                            <li style="color: white; font-size: 30px;">
+                                <a href="javascript:alert('En construction')">
+                                    <i class="fab fa-facebook-square" style="margin: 0 10px;"></i>
+                                </a>
+                                <a href="javascript:alert('En construction')">
+                                    <i class="fab fa-instagram" style="margin: 0 10px;"></i>
+                                </a>
+                            </li>
                         </ul>
                     </div>
                 </div>
