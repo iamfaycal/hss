@@ -6,7 +6,7 @@
                         </div>
                         <div class="newsletter_footer">
                             <label for="input_footer">Inscrivez vous à notre newsletter</label>
-                            <input class="input_footer" id="input_footer" type="email" placeholder="exemple@contact.com"><button class="newsletter_submit">Valider</button>
+                            <input class="input_footer" id="input_footer" type="email" placeholder="exemple@contact.com"><button class="newsletter_submit" onclick="alert('Votre adresse email a bien été enregistrée')">Valider</button>
                         </div>
                     </div>
                     <div class="footer_right">
