@@ -14,7 +14,7 @@
         <h2>Nos prochains spectacles</h2>
         <div class="event">
             <div class="event-poster">
-                <img src="http://<?php echo $_SERVER['SERVER_NAME'] ?>/hss/affiche.jpg" alt="affiche-nous">
+                <img src="http://<?php echo $_SERVER['SERVER_NAME'] ?>/hss/affiche-nous.jpg" alt="affiche-nous">
             </div>
             <div class="event-content">
                 <h3 class="title">NOUS - 2019</h3>

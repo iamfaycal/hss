@@ -4,7 +4,7 @@
         <h2>Nos spectacles</h2>
         <div class="event">
             <div class="event-poster">
-                <img src="http://<?php echo $_SERVER['SERVER_NAME'] ?>/hss/affiche.jpg" alt="affiche-nous">
+                <img src="http://<?php echo $_SERVER['SERVER_NAME'] ?>/hss/affiche-nous.jpg" alt="affiche-nous">
             </div>
             <div class="event-content">
                 <h3 class="title">NOUS - 2019</h3>
@@ -34,14 +34,11 @@
         </div>
         <div class="event">
             <div class="event-content" style="text-align: right;">
-                <h3 class="title">AUTRE SPECTACLE - 2019</h3>
-                <p>“Nous” est un spectacle combinant du breakdance et du théâtre racontant en mouvement la rencontre des membres de la troupe. Pendant 1h, à travers  ces deux styles artistiques, ils vont aborder des thématiques différentes.
-                Avec une authenticité rare, ils parlerons des défis qu’ils ont vécus et ceux qui les attendent.
-                Leur technique plonge les spectateurs dans un univers surprenant et pleins d’émotions   .
-                </p>
+                <h3 class="title">DANCE L'AVENIR - 2018</h3>
+                <p>Les premiers pas de Harmonised Soul System ont eu lieu sur la scène du concours Dance l’avenir.<br/>Vous pouvez retrouver l’intégralité de leurs performances sur <a href="javascript:alert('En construction')">www.dance-lavenir.fr</a>.</p>
             </div>
             <div class="event-poster">
-                <img src="https://via.placeholder.com/1000x1416" alt="affiche-nous">
+                <img src="http://<?php echo $_SERVER['SERVER_NAME'] ?>/hss/affiche-dance.jpg" alt="affiche-dance">
             </div>
         </div>
     </div>
